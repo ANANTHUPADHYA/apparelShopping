@@ -21,6 +21,14 @@ I am using google firebase cloud for database, storage and authentication
 
 <b>Firestore Database</b>:- I am using the firestore database to store the User details, Item list, Category list, Item details
 
+![](https://github.com/ANANTHUPADHYA/apparelShopping/blob/main/screenShots/fireStoreDatabase.PNG)
+![](https://github.com/ANANTHUPADHYA/apparelShopping/blob/main/screenShots/fireStoreDatabase2.PNG)
+![](https://github.com/ANANTHUPADHYA/apparelShopping/blob/main/screenShots/fireStoreDatabase3.PNG)
+
 <b>Storage</b>:-  I am storing item images in the google firebase storage.
 
+![](https://github.com/ANANTHUPADHYA/apparelShopping/blob/main/screenShots/firebaseStorage.PNG)
+
 <b>Authentication</b>:- I am using google firebase authentication to authenticate the user.
+
+![](https://github.com/ANANTHUPADHYA/apparelShopping/blob/main/screenShots/firebaseAuthentication.PNG)
