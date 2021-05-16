@@ -1,0 +1,812 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		366E53DB2BEB8599EC2B38FC /* Pods_apparelShoppingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0E10CC9D9FBD850F4C914C /* Pods_apparelShoppingTests.framework */; };
+		3F264AD4260833F000397EE7 /* apparelShoppingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F264AD3260833F000397EE7 /* apparelShoppingApp.swift */; };
+		3F264AD6260833F000397EE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F264AD5260833F000397EE7 /* ContentView.swift */; };
+		3F264AD8260833F000397EE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F264AD7260833F000397EE7 /* Assets.xcassets */; };
+		3F264ADB260833F000397EE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F264ADA260833F000397EE7 /* Preview Assets.xcassets */; };
+		3F264AE6260833F100397EE7 /* apparelShoppingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F264AE5260833F100397EE7 /* apparelShoppingTests.swift */; };
+		3F264AF1260833F100397EE7 /* apparelShoppingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F264AF0260833F100397EE7 /* apparelShoppingUITests.swift */; };
+		3F6BC69D26083DEF00447CE9 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6BC69C26083DEF00447CE9 /* Cart.swift */; };
+		3F6BC6A526083E1200447CE9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6BC6A426083E1200447CE9 /* Item.swift */; };
+		3F6BC6AA26083E9C00447CE9 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6BC6A926083E9C00447CE9 /* HomeViewModel.swift */; };
+		3F6BC6B026083EFA00447CE9 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6BC6AF26083EFA00447CE9 /* CartView.swift */; };
+		3F6BC6B826083F1400447CE9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6BC6B726083F1400447CE9 /* Home.swift */; };
+		3F6BC6BD26083F2C00447CE9 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6BC6BC26083F2C00447CE9 /* ItemView.swift */; };
+		3F6BC6C226083F4100447CE9 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6BC6C126083F4100447CE9 /* Menu.swift */; };
+		3F6BC6CF260844E100447CE9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F6BC6CE260844E100447CE9 /* GoogleService-Info.plist */; };
+		3F6BC6D52608463500447CE9 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 3F6BC6D42608463500447CE9 /* SwiftPackageProductDependency */; };
+		542F7E79F9274D4ABC7047B9 /* Pods_apparelShopping_apparelShoppingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E62FCBE83A99B67E05FFB /* Pods_apparelShopping_apparelShoppingUITests.framework */; };
+		9283B39AF43F9F8E833131D5 /* Pods_apparelShopping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B8EE8F602A91FD6CD0B9D6 /* Pods_apparelShopping.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F264AE2260833F100397EE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F264AC8260833F000397EE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F264ACF260833F000397EE7;
+			remoteInfo = apparelShopping;
+		};
+		3F264AED260833F100397EE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F264AC8260833F000397EE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F264ACF260833F000397EE7;
+			remoteInfo = apparelShopping;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27B8EE8F602A91FD6CD0B9D6 /* Pods_apparelShopping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_apparelShopping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		320E62FCBE83A99B67E05FFB /* Pods_apparelShopping_apparelShoppingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_apparelShopping_apparelShoppingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F264AD0260833F000397EE7 /* apparelShopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = apparelShopping.app; path = "/Users/student/Documents/apparelShopping/build/Debug-iphoneos/apparelShopping.app"; sourceTree = "<absolute>"; };
+		3F264AD3260833F000397EE7 /* apparelShoppingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apparelShoppingApp.swift; sourceTree = "<group>"; };
+		3F264AD5260833F000397EE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F264AD7260833F000397EE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F264ADA260833F000397EE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F264ADC260833F000397EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F264AE1260833F100397EE7 /* apparelShoppingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = apparelShoppingTests.xctest; path = "/Users/student/Documents/apparelShopping/build/Debug-iphoneos/apparelShoppingTests.xctest"; sourceTree = "<absolute>"; };
+		3F264AE5260833F100397EE7 /* apparelShoppingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apparelShoppingTests.swift; sourceTree = "<group>"; };
+		3F264AE7260833F100397EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F264AEC260833F100397EE7 /* apparelShoppingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = apparelShoppingUITests.xctest; path = "/Users/student/Documents/apparelShopping/build/Debug-iphoneos/apparelShoppingUITests.xctest"; sourceTree = "<absolute>"; };
+		3F264AF0260833F100397EE7 /* apparelShoppingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apparelShoppingUITests.swift; sourceTree = "<group>"; };
+		3F264AF2260833F100397EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6BC69C26083DEF00447CE9 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		3F6BC6A426083E1200447CE9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		3F6BC6A926083E9C00447CE9 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		3F6BC6AF26083EFA00447CE9 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		3F6BC6B726083F1400447CE9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		3F6BC6BC26083F2C00447CE9 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		3F6BC6C126083F4100447CE9 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		3F6BC6CE260844E100447CE9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		59C79DC76306823741466C86 /* Pods-apparelShoppingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apparelShoppingTests.debug.xcconfig"; path = "Target Support Files/Pods-apparelShoppingTests/Pods-apparelShoppingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F479B89BF27C44F62F5AAFC /* Pods-apparelShopping-apparelShoppingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apparelShopping-apparelShoppingUITests.release.xcconfig"; path = "Target Support Files/Pods-apparelShopping-apparelShoppingUITests/Pods-apparelShopping-apparelShoppingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E0E10CC9D9FBD850F4C914C /* Pods_apparelShoppingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_apparelShoppingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A473E57B313C234FBF2C584E /* Pods-apparelShopping-apparelShoppingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apparelShopping-apparelShoppingUITests.debug.xcconfig"; path = "Target Support Files/Pods-apparelShopping-apparelShoppingUITests/Pods-apparelShopping-apparelShoppingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0750E9806102A3ADA3C8001 /* Pods-apparelShopping.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apparelShopping.debug.xcconfig"; path = "Target Support Files/Pods-apparelShopping/Pods-apparelShopping.debug.xcconfig"; sourceTree = "<group>"; };
+		D3D5484ABB3948E151ACFADB /* Pods-apparelShopping.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apparelShopping.release.xcconfig"; path = "Target Support Files/Pods-apparelShopping/Pods-apparelShopping.release.xcconfig"; sourceTree = "<group>"; };
+		DE97AE8E17309F17833F87D0 /* Pods-apparelShoppingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apparelShoppingTests.release.xcconfig"; path = "Target Support Files/Pods-apparelShoppingTests/Pods-apparelShoppingTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F264ACD260833F000397EE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6BC6D52608463500447CE9 /* BuildFile in Frameworks */,
+				9283B39AF43F9F8E833131D5 /* Pods_apparelShopping.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F264ADE260833F100397EE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366E53DB2BEB8599EC2B38FC /* Pods_apparelShoppingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F264AE9260833F100397EE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542F7E79F9274D4ABC7047B9 /* Pods_apparelShopping_apparelShoppingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F361843ADCE7313C1EE68ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27B8EE8F602A91FD6CD0B9D6 /* Pods_apparelShopping.framework */,
+				320E62FCBE83A99B67E05FFB /* Pods_apparelShopping_apparelShoppingUITests.framework */,
+				6E0E10CC9D9FBD850F4C914C /* Pods_apparelShoppingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F264AC7260833F000397EE7 = {
+			isa = PBXGroup;
+			children = (
+				3F264AD2260833F000397EE7 /* apparelShopping */,
+				3F264AE4260833F100397EE7 /* apparelShoppingTests */,
+				3F264AEF260833F100397EE7 /* apparelShoppingUITests */,
+				90E1ED5581E8B124155A4412 /* Pods */,
+				0F361843ADCE7313C1EE68ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F264AD2260833F000397EE7 /* apparelShopping */ = {
+			isa = PBXGroup;
+			children = (
+				3F6BC6CE260844E100447CE9 /* GoogleService-Info.plist */,
+				3F6BC6AE26083ED300447CE9 /* View */,
+				3F6BC69A26083CF900447CE9 /* ViewModel */,
+				3F6BC69926083CEC00447CE9 /* Model */,
+				3F264AD3260833F000397EE7 /* apparelShoppingApp.swift */,
+				3F264AD5260833F000397EE7 /* ContentView.swift */,
+				3F264AD7260833F000397EE7 /* Assets.xcassets */,
+				3F264ADC260833F000397EE7 /* Info.plist */,
+				3F264AD9260833F000397EE7 /* Preview Content */,
+			);
+			path = apparelShopping;
+			sourceTree = "<group>";
+		};
+		3F264AD9260833F000397EE7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F264ADA260833F000397EE7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F264AE4260833F100397EE7 /* apparelShoppingTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F264AE5260833F100397EE7 /* apparelShoppingTests.swift */,
+				3F264AE7260833F100397EE7 /* Info.plist */,
+			);
+			path = apparelShoppingTests;
+			sourceTree = "<group>";
+		};
+		3F264AEF260833F100397EE7 /* apparelShoppingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F264AF0260833F100397EE7 /* apparelShoppingUITests.swift */,
+				3F264AF2260833F100397EE7 /* Info.plist */,
+			);
+			path = apparelShoppingUITests;
+			sourceTree = "<group>";
+		};
+		3F6BC69926083CEC00447CE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F6BC69C26083DEF00447CE9 /* Cart.swift */,
+				3F6BC6A426083E1200447CE9 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F6BC69A26083CF900447CE9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3F6BC6A926083E9C00447CE9 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3F6BC6AE26083ED300447CE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F6BC6AF26083EFA00447CE9 /* CartView.swift */,
+				3F6BC6B726083F1400447CE9 /* Home.swift */,
+				3F6BC6BC26083F2C00447CE9 /* ItemView.swift */,
+				3F6BC6C126083F4100447CE9 /* Menu.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		90E1ED5581E8B124155A4412 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0750E9806102A3ADA3C8001 /* Pods-apparelShopping.debug.xcconfig */,
+				D3D5484ABB3948E151ACFADB /* Pods-apparelShopping.release.xcconfig */,
+				A473E57B313C234FBF2C584E /* Pods-apparelShopping-apparelShoppingUITests.debug.xcconfig */,
+				5F479B89BF27C44F62F5AAFC /* Pods-apparelShopping-apparelShoppingUITests.release.xcconfig */,
+				59C79DC76306823741466C86 /* Pods-apparelShoppingTests.debug.xcconfig */,
+				DE97AE8E17309F17833F87D0 /* Pods-apparelShoppingTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F264ACF260833F000397EE7 /* apparelShopping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F264AF5260833F100397EE7 /* Build configuration list for PBXNativeTarget "apparelShopping" */;
+			buildPhases = (
+				86072B8C909FF9F12E9E5FFC /* [CP] Check Pods Manifest.lock */,
+				3F264ACC260833F000397EE7 /* Sources */,
+				3F264ACD260833F000397EE7 /* Frameworks */,
+				3F264ACE260833F000397EE7 /* Resources */,
+				C0FCDB0C476F3C35A4FE42CD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = apparelShopping;
+			packageProductDependencies = (
+				3F6BC6D42608463500447CE9 /* SwiftPackageProductDependency */,
+			);
+			productName = apparelShopping;
+			productReference = 3F264AD0260833F000397EE7 /* apparelShopping.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F264AE0260833F100397EE7 /* apparelShoppingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F264AF8260833F100397EE7 /* Build configuration list for PBXNativeTarget "apparelShoppingTests" */;
+			buildPhases = (
+				FEF9257E322C171AC7F74E97 /* [CP] Check Pods Manifest.lock */,
+				3F264ADD260833F100397EE7 /* Sources */,
+				3F264ADE260833F100397EE7 /* Frameworks */,
+				3F264ADF260833F100397EE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F264AE3260833F100397EE7 /* PBXTargetDependency */,
+			);
+			name = apparelShoppingTests;
+			productName = apparelShoppingTests;
+			productReference = 3F264AE1260833F100397EE7 /* apparelShoppingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F264AEB260833F100397EE7 /* apparelShoppingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F264AFB260833F100397EE7 /* Build configuration list for PBXNativeTarget "apparelShoppingUITests" */;
+			buildPhases = (
+				E9FA67F0621C94EC97B620A7 /* [CP] Check Pods Manifest.lock */,
+				3F264AE8260833F100397EE7 /* Sources */,
+				3F264AE9260833F100397EE7 /* Frameworks */,
+				3F264AEA260833F100397EE7 /* Resources */,
+				C513C9A4A6A13FA43A3A54FE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F264AEE260833F100397EE7 /* PBXTargetDependency */,
+			);
+			name = apparelShoppingUITests;
+			productName = apparelShoppingUITests;
+			productReference = 3F264AEC260833F100397EE7 /* apparelShoppingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F264AC8260833F000397EE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					3F264ACF260833F000397EE7 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					3F264AE0260833F100397EE7 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 3F264ACF260833F000397EE7;
+					};
+					3F264AEB260833F100397EE7 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 3F264ACF260833F000397EE7;
+					};
+				};
+			};
+			buildConfigurationList = 3F264ACB260833F000397EE7 /* Build configuration list for PBXProject "apparelShopping" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F264AC7260833F000397EE7;
+			packageReferences = (
+				3F6BC6D32608463500447CE9 /* RemoteSwiftPackageReference */,
+			);
+			productRefGroup = 3F264AC7260833F000397EE7;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F264ACF260833F000397EE7 /* apparelShopping */,
+				3F264AE0260833F100397EE7 /* apparelShoppingTests */,
+				3F264AEB260833F100397EE7 /* apparelShoppingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F264ACE260833F000397EE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F264ADB260833F000397EE7 /* Preview Assets.xcassets in Resources */,
+				3F264AD8260833F000397EE7 /* Assets.xcassets in Resources */,
+				3F6BC6CF260844E100447CE9 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F264ADF260833F100397EE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F264AEA260833F100397EE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86072B8C909FF9F12E9E5FFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-apparelShopping-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0FCDB0C476F3C35A4FE42CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-apparelShopping/Pods-apparelShopping-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-apparelShopping/Pods-apparelShopping-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-apparelShopping/Pods-apparelShopping-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C513C9A4A6A13FA43A3A54FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-apparelShopping-apparelShoppingUITests/Pods-apparelShopping-apparelShoppingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-apparelShopping-apparelShoppingUITests/Pods-apparelShopping-apparelShoppingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-apparelShopping-apparelShoppingUITests/Pods-apparelShopping-apparelShoppingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9FA67F0621C94EC97B620A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-apparelShopping-apparelShoppingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEF9257E322C171AC7F74E97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-apparelShoppingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F264ACC260833F000397EE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6BC6B026083EFA00447CE9 /* CartView.swift in Sources */,
+				3F6BC6A526083E1200447CE9 /* Item.swift in Sources */,
+				3F264AD6260833F000397EE7 /* ContentView.swift in Sources */,
+				3F6BC6BD26083F2C00447CE9 /* ItemView.swift in Sources */,
+				3F6BC69D26083DEF00447CE9 /* Cart.swift in Sources */,
+				3F6BC6AA26083E9C00447CE9 /* HomeViewModel.swift in Sources */,
+				3F6BC6C226083F4100447CE9 /* Menu.swift in Sources */,
+				3F264AD4260833F000397EE7 /* apparelShoppingApp.swift in Sources */,
+				3F6BC6B826083F1400447CE9 /* Home.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F264ADD260833F100397EE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F264AE6260833F100397EE7 /* apparelShoppingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F264AE8260833F100397EE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F264AF1260833F100397EE7 /* apparelShoppingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F264AE3260833F100397EE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F264ACF260833F000397EE7 /* apparelShopping */;
+			targetProxy = 3F264AE2260833F100397EE7 /* PBXContainerItemProxy */;
+		};
+		3F264AEE260833F100397EE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F264ACF260833F000397EE7 /* apparelShopping */;
+			targetProxy = 3F264AED260833F100397EE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F264AF3260833F100397EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F264AF4260833F100397EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F264AF6260833F100397EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0750E9806102A3ADA3C8001 /* Pods-apparelShopping.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"apparelShopping/Preview Content\"";
+				DEVELOPMENT_TEAM = ZW924D227D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = apparelShopping/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = individual.apparelShopping;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F264AF7260833F100397EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3D5484ABB3948E151ACFADB /* Pods-apparelShopping.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"apparelShopping/Preview Content\"";
+				DEVELOPMENT_TEAM = ZW924D227D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = apparelShopping/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = individual.apparelShopping;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F264AF9260833F100397EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59C79DC76306823741466C86 /* Pods-apparelShoppingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZW924D227D;
+				INFOPLIST_FILE = apparelShoppingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = individual.apparelShoppingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apparelShopping.app/apparelShopping";
+			};
+			name = Debug;
+		};
+		3F264AFA260833F100397EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE97AE8E17309F17833F87D0 /* Pods-apparelShoppingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZW924D227D;
+				INFOPLIST_FILE = apparelShoppingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = individual.apparelShoppingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apparelShopping.app/apparelShopping";
+			};
+			name = Release;
+		};
+		3F264AFC260833F100397EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A473E57B313C234FBF2C584E /* Pods-apparelShopping-apparelShoppingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZW924D227D;
+				INFOPLIST_FILE = apparelShoppingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = individual.apparelShoppingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = apparelShopping;
+			};
+			name = Debug;
+		};
+		3F264AFD260833F100397EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F479B89BF27C44F62F5AAFC /* Pods-apparelShopping-apparelShoppingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZW924D227D;
+				INFOPLIST_FILE = apparelShoppingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = individual.apparelShoppingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = apparelShopping;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F264ACB260833F000397EE7 /* Build configuration list for PBXProject "apparelShopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F264AF3260833F100397EE7 /* Debug */,
+				3F264AF4260833F100397EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F264AF5260833F100397EE7 /* Build configuration list for PBXNativeTarget "apparelShopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F264AF6260833F100397EE7 /* Debug */,
+				3F264AF7260833F100397EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F264AF8260833F100397EE7 /* Build configuration list for PBXNativeTarget "apparelShoppingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F264AF9260833F100397EE7 /* Debug */,
+				3F264AFA260833F100397EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F264AFB260833F100397EE7 /* Build configuration list for PBXNativeTarget "apparelShoppingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F264AFC260833F100397EE7 /* Debug */,
+				3F264AFD260833F100397EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3F6BC6D32608463500447CE9 /* RemoteSwiftPackageReference */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3F6BC6D42608463500447CE9 /* SwiftPackageProductDependency */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F6BC6D32608463500447CE9 /* RemoteSwiftPackageReference */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3F264AC8260833F000397EE7 /* Project object */;
+}
