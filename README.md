@@ -1,4 +1,4 @@
-# apparelShopping a cloud connected app
+# apparelShopping - A cloud connected app
 An iOS app for shopping apparels online
 
 This is an iOS app where the user can see the list of apparel materials which he/she wants to buy.
@@ -15,12 +15,12 @@ The total of the item is calculated and showed.
 
 The items can be removed from the cart and also the order can be cancelled.
 
-#Google Firebase integration
+### Google Firebase integration
 
 I am using google firebase cloud for database, storage and authentication
 
-Firestore Database :- I am using the firestore database to store the User details, Item list, Category list, Item details
+<b>Firestore Database</b>:- I am using the firestore database to store the User details, Item list, Category list, Item details
 
-Storage:-  I am storing item images in the google firebase storage.
+<b>Storage</b>:-  I am storing item images in the google firebase storage.
 
-Authentication :- I am using google firebase authentication to authenticate the user.
+<b>Authentication</b>:- I am using google firebase authentication to authenticate the user.
