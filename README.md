@@ -16,12 +16,12 @@ The total of the item is calculated and showed.
 The items can be removed from the cart and also the order can be cancelled.
 
 ### App Screenshots
-  <b>Items Screen</b>
-    ![](https://github.com/ANANTHUPADHYA/apparelShopping/blob/main/screenShots/ItemsScreen.PNG)
-  <b>Cart Screen</b>
-    ![](https://github.com/ANANTHUPADHYA/apparelShopping/blob/main/screenShots/Cart.PNG)
-  <b>Remove Item</b>
-    ![](https://github.com/ANANTHUPADHYA/apparelShopping/blob/main/screenShots/RemoveItem.PNG)
+<b>Items Screen</b>
+![](https://github.com/ANANTHUPADHYA/apparelShopping/blob/main/screenShots/ItemsScreen.PNG)
+<b>Cart Screen</b>
+![](https://github.com/ANANTHUPADHYA/apparelShopping/blob/main/screenShots/Cart.PNG)
+<b>Remove Item</b>
+![](https://github.com/ANANTHUPADHYA/apparelShopping/blob/main/screenShots/RemoveItem.PNG)
 
 ### Google Firebase integration
 
